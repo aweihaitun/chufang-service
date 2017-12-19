@@ -1,0 +1,16 @@
+{
+    "name": "monph/shoufang-service",
+    "repositories":[
+        {
+            "type": "vcs",
+            "url": "https://github.com/aweihaitun/composer-hello"
+        }
+    ],
+	"autoload":{
+        "psr-4":{"ShoufangService\\": "src/"}
+    },
+    "require":{
+        "monph/hello-world": "dev-master",
+		"monolog/monolog": "1.*"
+    }
+}
